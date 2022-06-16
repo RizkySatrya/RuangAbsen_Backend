@@ -3,12 +3,12 @@
 @section('content')
 <div class="login-box">
     <div class="login-logo">
-        <a href="#"><b>Attendance</b>Live</a>
+        <a href="#"><b>Ruang</b>Absen</a>
     </div>
     <!-- /.login-logo -->
     <div class="card">
         <div class="card-body login-card-body">
-            <p class="login-box-msg">Sign up to start your session</p>
+            <p class="login-box-msg">Sign up untuk masuk</p>
 
             <form method="POST" action="{{ route('register') }}">
                 @csrf
@@ -71,7 +71,7 @@
             </form>
 
             <p class="mb-1">
-                <a href="{{ route('login') }}">Already have account? Login</a>
+                <a href="{{ route('login') }}">Sudah punya akun? Login</a>
             </p>
         </div>
         <!-- /.login-card-body -->

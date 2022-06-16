@@ -27,7 +27,7 @@
                 <a href="{{ url('/attendance') }}" class="nav-link">
                     <i class="nav-icon far fa-calendar-alt"></i>
                     <p>
-                        Attendance
+                        Presensi
                     </p>
                 </a>
             </li>
@@ -35,7 +35,7 @@
                 <a href="{{ url('/user') }}" class="nav-link">
                     <i class="nav-icon fas fa-user"></i>
                     <p>
-                        Users
+                        Pengguna
                     </p>
                 </a>
             </li>

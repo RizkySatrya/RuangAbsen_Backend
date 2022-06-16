@@ -5,13 +5,13 @@
     <div class="container-fluid">
         <div class="row mb-2">
             <div class="col-sm-6">
-                <h1 class="m-0 text-dark">User</h1>
+                <h1 class="m-0 text-dark">Pengguna</h1>
             </div><!-- /.col -->
             <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-right">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item">User</li>
-                    <li class="breadcrumb-item active">Show</li>
+                    <li class="breadcrumb-item">Pengguna</li>
+                    <li class="breadcrumb-item active">Tampilkan</li>
                 </ol>
             </div><!-- /.col -->
         </div><!-- /.row -->
@@ -31,7 +31,7 @@
                     <div class="card-header">
                         <h3 class="card-title">
                             <i class="ion ion-clipboard mr-1"></i>
-                            User
+                            Pengguna
                         </h3>
                     </div>
                     <!-- /.card-header -->
@@ -39,7 +39,7 @@
                         <table class="table" id="datatable">
                             <tbody>
                                 <tr>
-                                    <th>Name</th>
+                                    <th>Nama</th>
                                     <td>{{ $user->name }}</td>
                                 </tr>
                                 <tr>
@@ -51,7 +51,7 @@
                                     <td>{{ $user->is_admin ? 'Yes' : 'No' }}</td>
                                 </tr>
                                 <tr>
-                                    <th>Photo</th>
+                                    <th>Foto</th>
                                     <td><img width="350" src="{{ asset('/storage/profile/' . $user->photo) }}" alt=""></td>
                                 </tr>
                             </tbody>

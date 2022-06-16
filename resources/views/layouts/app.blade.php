@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Codepolitan Attendance</title>
+    <title>Ruang Absen</title>
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{{ asset('assets/plugins/fontawesome-free/css/all.min.css') }}">
@@ -47,10 +47,9 @@
     </div>
     <!-- /.content-wrapper -->
     <footer class="main-footer">
-      <strong>Copyright &copy; 2014-2019 <a href="http://adminlte.io">AdminLTE.io</a>.</strong>
-      All rights reserved.
+      <strong>Project Akhir 2022 <a href="https://orbitfutureacademy.id/">Orbit Future Academy</a>.</strong>
       <div class="float-right d-none d-sm-inline-block">
-        <b>Version</b> 3.0.5
+        <b>Versi</b> beta
       </div>
     </footer>
 

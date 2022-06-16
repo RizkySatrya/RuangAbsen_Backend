@@ -39,7 +39,7 @@
                     <div class="card-header">
                         <h3 class="card-title">
                             <i class="ion ion-clipboard mr-1"></i>
-                            Attendance
+                            Presensi
                         </h3>
                     </div>
                     <!-- /.card-header -->

@@ -3,12 +3,12 @@
 @section('content')
 <div class="login-box">
     <div class="login-logo">
-        <a href="#"><b>Attendance</b>Live</a>
+        <a href="#"><b>Ruang</b>Absen</a>
     </div>
     <!-- /.login-logo -->
     <div class="card">
         <div class="card-body login-card-body">
-            <p class="login-box-msg">Sign in to start your session</p>
+            <p class="login-box-msg">Sign in untuk masuk</p>
 
             <form method="POST" action="{{ route('login') }}">
                 @csrf
@@ -48,7 +48,7 @@
                             <input type="checkbox" name="remember" id="remember"
                                 {{ old('remember') ? 'checked' : '' }}>
                             <label for="remember">
-                                Remember Me
+                                Ingat Aku
                             </label>
                         </div>
                     </div>
@@ -60,9 +60,6 @@
                 </div>
             </form>
 
-            <p class="mb-1">
-                <a href="{{ route('password.request') }}">I forgot my password</a>
-            </p>
         </div>
         <!-- /.login-card-body -->
     </div>

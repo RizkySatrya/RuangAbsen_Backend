@@ -6,12 +6,12 @@
     <div class="container-fluid">
         <div class="row mb-2">
             <div class="col-sm-6">
-                <h1 class="m-0 text-dark">Attendance List</h1>
+                <h1 class="m-0 text-dark">Daftar Presensi</h1>
             </div><!-- /.col -->
             <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-right">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item active">Attendance</li>
+                    <li class="breadcrumb-item active">Presensi</li>
                 </ol>
             </div><!-- /.col -->
         </div><!-- /.row -->
@@ -33,13 +33,13 @@
                 @endif
 
                 <!-- Attendance Chart -->
-                <a href="{{ route('user.create') }}" class="btn btn-sm btn-primary mb-2">Add</a>
+                <a href="{{ route('user.create') }}" class="btn btn-sm btn-primary mb-2">Tambah</a>
 
                 <div class="card">
                     <div class="card-header">
                         <h3 class="card-title">
                             <i class="ion ion-clipboard mr-1"></i>
-                            Attendance
+                            Presensi
                         </h3>
                     </div>
                     <!-- /.card-header -->
@@ -49,9 +49,9 @@
                             <thead>
                                 <tr>
                                     <th>ID</th>
-                                    <th>User</th>
+                                    <th>Pengguna</th>
                                     <th>Status</th>
-                                    <th>Time</th>
+                                    <th>Waktu</th>
                                     <th></th>
                                 </tr>
                             </thead>
